@@ -17,6 +17,7 @@ body {
     background-color: white;
     
     -webkit-animation: fadeIn 1.2s both;
+    animation: fadeIn 1.2s both;
 }
 
 .projectsbox h1 {
@@ -48,6 +49,18 @@ body {
     100% {
         opacity: 1;
         -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 
