@@ -9,7 +9,7 @@
 li, a, button {
     font-family: 'Poppins' sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 32px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -23,6 +23,7 @@ header {
 
 .logo {
     cursor: pointer;
+    font-size: 40px;
 }
 
 .nav__links {
@@ -64,4 +65,17 @@ p {
     align-items: center;
     text-align: center;
     margin: 100px;
+}
+
+.bordernav {
+    border: aqua solid;
+}
+
+.home {
+    border: gray solid 10px;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
