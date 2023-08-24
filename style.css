@@ -54,3 +54,14 @@ button {
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
+
+p {
+    font-family: 'Poppins' sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+}
